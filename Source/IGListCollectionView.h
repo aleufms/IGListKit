@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 
 #import <IGListKit/IGListMacros.h>
+#import <TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h>
 
 /**
  This class is never actually used by the `IGListKit` infrastructure. 
@@ -17,7 +18,7 @@
  methods are called on the collection view returned by `-[IGListAdapter collectionView]`.
  */
 IGLK_SUBCLASSING_RESTRICTED
-@interface IGListCollectionView : UICollectionView
+@interface IGListCollectionView : TPKeyboardAvoidingCollectionView
 
 /**
  :nodoc:

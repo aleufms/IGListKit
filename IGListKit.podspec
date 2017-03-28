@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Default' do |cs|
     cs.dependency 'IGListKit/Diffing'
+    cs.dependency 'TPKeyboardAvoiding'
 
     cs.ios.source_files = 'Source/**/*.{h,m,mm}'
     cs.ios.private_header_files = ['Source/Internal/*.h', 'Source/Common/Internal/*.h']
